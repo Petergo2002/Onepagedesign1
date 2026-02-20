@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+:root {
+  --background: #000000; /* pure black for minimal look */
+  --foreground: #ededed;
+}
+
+@theme inline {
+  /* Base tokens */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Fonts */
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-poppins);
+
+  /* Brand palette */
+  --color-brand-50: #eaf7f0;
+  --color-brand-100: #c9ebd6;
+  --color-brand-200: #9fdeb8;
+  --color-brand-300: #6fd093;
+  --color-brand-400: #1BA758; /* primary green */
+  --color-brand-500: #189a52;
+  --color-brand-600: #15834B; /* dark green */
+  --color-brand-700: #116d3f;
+  --color-brand-800: #0d5633;
+  --color-brand-900: #0a4128;
+
+  /* Neutral extras */
+  --color-neutralx-900: #000000;
+  --color-neutralx-700: #4F4955;
+  --color-neutralx-600: #3C2D49;
+
+  /* Shadows */
+  --shadow-soft: 0 10px 40px rgba(0,0,0,0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Global layout helpers */
+html, body {
+  height: 100%;
+}
+
+/* Custom utilities ported from Vite project */
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/10;
+}
+
+.section {
+  @apply py-24 md:py-32;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 font-semibold transition-all;
+}
+
+.btn-primary {
+  @apply bg-brand-600 hover:bg-brand-500 text-white;
+  box-shadow: var(--shadow-soft);
+}
+
+.btn-secondary {
+  @apply border border-brand-400 text-brand-400 hover:bg-brand-400/10;
+}
+
+/* Background helpers that replaced Tailwind v3 backgroundImage tokens */
+.bg-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0);
+}
+
+.bg-glow {
+  /* subtle dual-color glow using the new palette (green + deep purple-gray) */
+  background-image: radial-gradient(1000px 500px at 0% 0%, rgba(27,167,88,0.18), transparent),
+    radial-gradient(1000px 500px at 100% 0%, rgba(60,45,73,0.18), transparent);
+}

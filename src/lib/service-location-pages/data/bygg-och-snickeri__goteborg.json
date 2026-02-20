@@ -1,0 +1,197 @@
+{
+  "serviceSlug": "bygg-och-snickeri",
+  "serviceName": "Bygg & Snickeri",
+  "locationName": "Göteborg",
+  "locationSlug": "goteborg",
+  "schemaType": "GeneralContractor",
+  "gbpCategory": "Byggföretag",
+  "businessName": "Svensk Bygg & Snickeri Göteborg",
+  "businessAddress": {
+    "streetAddress": "Avenyn 1",
+    "postalCode": "411 36",
+    "addressLocality": "Göteborg",
+    "addressRegion": "Västra Götalands län",
+    "addressCountry": "SE"
+  },
+  "sameAs": [
+    "https://svenskbygg.se"
+  ],
+  "pageTitle": "Bygg & Snickeri i Göteborg",
+  "metaTitle": "Bygg & Snickeri Göteborg | Svensk Bygg & Snickeri",
+  "metaDesc": "Söker du ett pålitligt byggföretag för bygg och snickeri i Göteborg? Vi hjälper dig från skiss till färdigt resultat med fast pris och tydliga tidsplaner.",
+  "heroTitle": "Bygg & Snickeri i Göteborg",
+  "heroSubtitle": "Förvandla din bostad med ett lokalt och tryggt byggföretag. Vi tar hand om allt från rivning till finsnickeri – med fokus på kvalitet och precision.",
+  "heroImg": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2000&auto=format&fit=crop",
+  "phoneHref": "tel:+4681234567",
+  "phoneLabel": "08-123 45 67",
+  "responseText": "Svar oftast inom 1 timme på vardagar.",
+  "features": [
+    {
+      "title": "Erfarenhet inom bygg och snickeri",
+      "desc": "Med hundratals genomförda projekt vet vi hur man renoverar tryggt och effektivt oavsett bostadstyp.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Lokal närvaro i Göteborg",
+      "desc": "Vi är snabbt på plats över hela Västra Götaland och känner till de lokala kraven och förutsättningarna.",
+      "icon": "map-pin"
+    },
+    {
+      "title": "Tydlig plan och offert",
+      "desc": "Du får alltid en detaljerad offert med fast pris innan vi påbörjar arbetet. Inga dolda kostnader.",
+      "icon": "clock-3"
+    },
+    {
+      "title": "Kvalitet med garanti",
+      "desc": "Våra hantverkare är certifierade och vi lämnar generösa garantier på allt vårt arbete.",
+      "icon": "check-circle-2"
+    }
+  ],
+  "offerings": [
+    {
+      "title": "Bygg & Snickeri för privatkunder",
+      "desc": "Vi tar ett helhetsgrepp om din villa eller lägenhet och renoverar kök, badrum, golv och ytskikt.",
+      "details": "Vår totalentreprenad innebär att vi samordnar snickare, elektriker och rörmokare åt dig.",
+      "highlights": [
+        "Koordination av alla hantverksgrupper",
+        "Hjälp med layout och rumsplanering",
+        "Fasta tidsplaner och tydlig budget"
+      ],
+      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Bygg & Snickeri för företag",
+      "desc": "Vi anpassar och renoverar kontor, butiker och kommersiella lokaler i hela Göteborgsområdet.",
+      "details": "Minimera driftstopp med vår effektiva ombyggnation utanför era ordinarie arbetstider.",
+      "highlights": [
+        "Lokalanpassningar efter verksamhetens krav",
+        "Flexibla arbetstider för minskrad störning",
+        "Erfarenhet av höga brand- och ljudkrav"
+      ],
+      "img": "https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Service och uppföljning",
+      "desc": "Vårt samarbete slutar inte när sista skruven är dragen – vi gör alltid en gedigen slutbesiktning.",
+      "details": "Genom noggrann uppföljning säkerställer vi kvaliteten på den färdiga renoveringen.",
+      "highlights": [
+        "Oberoende slutbesiktning erbjuds",
+        "Utförlig dokumentation över bygget",
+        "Snabb åtgärd vid eventuella anmärkningar"
+      ],
+      "img": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Svårt att samordna hantverkare",
+      "desc": "Vid en renovering krävs många yrken. Med vår totalentreprenad sköter vi all samordning åt dig i Göteborg."
+    },
+    {
+      "title": "Långa ledtider och dyra förseningar",
+      "desc": "Vi har ett etablerat nätverk av materialleverantörer lokalt och arbetar alltid efter fastställd tidsplan."
+    },
+    {
+      "title": "Otydliga offerter och dolda avgifter",
+      "desc": "Vi inspekterar alltid bostaden på plats och ger dig ett fast och tydligt pris innan start."
+    }
+  ],
+  "process": [
+    {
+      "title": "1. Behovsanalys",
+      "desc": "Vi möts på plats för att gå igenom dina drömmar och förutsättningarna."
+    },
+    {
+      "title": "2. Offert och planering",
+      "desc": "Du får en kostnadsfri, detaljerad offert samt en tidsplan."
+    },
+    {
+      "title": "3. Utförande",
+      "desc": "Våra skickliga hantverkare bygger med hänsyn till dig och din omgivning."
+    },
+    {
+      "title": "4. Slutkontroll och överlämning",
+      "desc": "Vi går igenom det färdiga resultatet tillsammans före slutfakturering."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Bygg & Snickeri lägenhet i Linnéstaden",
+      "area": "Linnéstaden, Göteborg",
+      "challenge": "Gammal bebyggelse med stora snedtak och ojämn planlösning krävde kreativ inredning.",
+      "solution": "Vi ritade om layouten, byggde platsbyggda snickerier och renoverade både kök och badrum.",
+      "result": "Ett modernt men tidstypiskt resultat med maximalt utnyttjade ytor.",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Ombyggnad av kontorslandskap",
+      "area": "Lindholmen, Göteborg",
+      "challenge": "Det växande företaget behövde mötesrum och bättre ljudisolering i befintlig lokal.",
+      "solution": "Uppsättning av nya glas- och gipspartier med högsta akustikklass.",
+      "result": "En modern och tyst arbetsmiljö som godkändes utan anmärkning.",
+      "img": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "priceExamples": [
+    {
+      "title": "Bygg & Snickeri lägenhet (1-2 rok)",
+      "price": "Från 250 000 kr",
+      "desc": "Inkluderar standardkök, uppfräschning av ytskikt, slipning av golv och normalstor badrumsrenovering."
+    },
+    {
+      "title": "Bygg & Snickeri villa bas",
+      "price": "Från 450 000 kr",
+      "desc": "Standardmaterial i kök och badrum, nya innerväggar och byte av befintliga lister och dörrar."
+    },
+    {
+      "title": "Bygg & Snickeri arkitektritat",
+      "price": "Offertbaserat",
+      "desc": "Individuell anpassning med högsta finish, platsbyggd inredning och exklusiva materialval."
+    }
+  ],
+  "areas": [
+    "Göteborg",
+    "Mölndal",
+    "Partille",
+    "Hisingen"
+  ],
+  "reviews": [
+    {
+      "name": "Maria L.",
+      "role": "Villaägare, Torslanda",
+      "text": "Svensk Bygg & Snickeri totalrenoverade vårt hus från 70-talet. Grym kommunikation rakt igenom!",
+      "rating": 5
+    },
+    {
+      "name": "Johan E.",
+      "role": "Bostadsrätt, Linnéstaden",
+      "text": "Snabba, höll tidsplanen perfekt och var trevliga att ha hemma.",
+      "rating": 5
+    },
+    {
+      "name": "Företagare AB",
+      "role": "Kontor, Lindholmen",
+      "text": "Snabb och smidig lokalanpassning. Hantverkarna löste oförutsedda problem smidigt.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vad kostar en bygg och snickeri i Göteborg?",
+      "a": "Priset varierar kraftigt beroende på materialval och omfattning. Ett riktmärke för en lägenhet är ofta från 10 000 kr per kvadratmeter."
+    },
+    {
+      "q": "Hur snabbt kan ni starta?",
+      "a": "Efter godkänd offert har vi vanligtvis en startsträcka på 4 till 8 veckor, beroende på materialens leveranstider."
+    },
+    {
+      "q": "Vilka områden täcker ni?",
+      "a": "Vi åtar oss uppdrag i hela Storgöteborg med omnejd, inklusive Mölndal, Partille och Kungälv."
+    },
+    {
+      "q": "Hur fungerar offertprocessen?",
+      "a": "Vi börjar med ett kostnadsfritt hembesök där vi mäter upp. Därefter skickar vi en skriftlig offert med fast pris och tidsplan."
+    }
+  ],
+  "relatedServices": []
+}
