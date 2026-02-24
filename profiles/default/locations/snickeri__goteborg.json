@@ -1,0 +1,179 @@
+{
+  "serviceSlug": "snickeri",
+  "serviceName": "Snickeri",
+  "locationName": "Göteborg",
+  "locationSlug": "goteborg",
+  "schemaType": "LocalBusiness",
+  "gbpCategory": "Snickeri",
+  "businessName": "[ANPASSA FÖRETAGSNAMN]",
+  "businessAddress": {
+    "streetAddress": "[ANPASSA TEXT]",
+    "postalCode": "[ANPASSA TEXT]",
+    "addressLocality": "Göteborg",
+    "addressRegion": "[ANPASSA TEXT]",
+    "addressCountry": "SE"
+  },
+  "sameAs": ["https://example.se"],
+  "pageTitle": "Snickeri i Göteborg",
+  "metaTitle": "Snickeri Göteborg | [ANPASSA FÖRETAGSNAMN]",
+  "metaDesc": "[ANPASSA TEXT]: skriv en unik meta description för snickeri i Göteborg.",
+  "heroTitle": "Snickeri i Göteborg",
+  "heroSubtitle": "[ANPASSA TEXT]: skriv unik lokal hero-text för Göteborg.",
+  "heroImg": "[BYT BILD]",
+  "phoneHref": "tel:+46100000000",
+  "phoneLabel": "010-000 00 00",
+  "responseText": "[ANPASSA TEXT]: Svarstid",
+  "features": [
+    {
+      "title": "Erfarenhet inom snickeri",
+      "desc": "[ANPASSA TEXT]: unik fördel.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Lokal närvaro",
+      "desc": "[ANPASSA TEXT]: lokal trovärdighet.",
+      "icon": "map-pin"
+    },
+    {
+      "title": "Tydlig plan och offert",
+      "desc": "[ANPASSA TEXT]: offertprocess.",
+      "icon": "clock-3"
+    }
+  ],
+  "offerings": [
+    {
+      "title": "Snickeri för privatkunder",
+      "desc": "[ANPASSA TEXT]",
+      "details": "[ANPASSA TEXT]",
+      "highlights": ["[ANPASSA TEXT]", "[ANPASSA TEXT]", "[ANPASSA TEXT]"],
+      "img": "[BYT BILD]"
+    },
+    {
+      "title": "Snickeri för företag",
+      "desc": "[ANPASSA TEXT]",
+      "details": "[ANPASSA TEXT]",
+      "highlights": ["[ANPASSA TEXT]", "[ANPASSA TEXT]", "[ANPASSA TEXT]"],
+      "img": "[BYT BILD]"
+    },
+    {
+      "title": "Service och uppföljning",
+      "desc": "[ANPASSA TEXT]",
+      "details": "[ANPASSA TEXT]",
+      "highlights": ["[ANPASSA TEXT]", "[ANPASSA TEXT]", "[ANPASSA TEXT]"],
+      "img": "[BYT BILD]"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Vanligt problem i Göteborg",
+      "desc": "[ANPASSA TEXT]: lokalt problem kopplat till tjänsten."
+    },
+    {
+      "title": "Bristande planering eller kvalitet",
+      "desc": "[ANPASSA TEXT]: konkret lokalt scenario."
+    },
+    {
+      "title": "Otydliga offerter",
+      "desc": "[ANPASSA TEXT]: hur ni löser det bättre."
+    }
+  ],
+  "process": [
+    {
+      "title": "1. Behovsanalys",
+      "desc": "[ANPASSA TEXT]"
+    },
+    {
+      "title": "2. Offert och planering",
+      "desc": "[ANPASSA TEXT]"
+    },
+    {
+      "title": "3. Utförande",
+      "desc": "[ANPASSA TEXT]"
+    },
+    {
+      "title": "4. Slutkontroll",
+      "desc": "[ANPASSA TEXT]"
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Lokalt case 1",
+      "area": "Göteborg",
+      "challenge": "[ANPASSA TEXT]",
+      "solution": "[ANPASSA TEXT]",
+      "result": "[ANPASSA TEXT]",
+      "img": "[BYT BILD]"
+    },
+    {
+      "title": "Lokalt case 2",
+      "area": "Göteborg",
+      "challenge": "[ANPASSA TEXT]",
+      "solution": "[ANPASSA TEXT]",
+      "result": "[ANPASSA TEXT]",
+      "img": "[BYT BILD]"
+    }
+  ],
+  "priceExamples": [
+    {
+      "title": "Baspaket",
+      "price": "Från [ANPASSA PRIS]",
+      "desc": "[ANPASSA TEXT]"
+    },
+    {
+      "title": "Standard",
+      "price": "Från [ANPASSA PRIS]",
+      "desc": "[ANPASSA TEXT]"
+    },
+    {
+      "title": "Premium",
+      "price": "Från [ANPASSA PRIS]",
+      "desc": "[ANPASSA TEXT]"
+    }
+  ],
+  "areas": ["Göteborg", "[ANPASSA OMRÅDE]", "[ANPASSA OMRÅDE]"],
+  "reviews": [
+    {
+      "name": "Kund 1",
+      "role": "Göteborg",
+      "text": "[ANPASSA TEXT]: verkligt kundomdöme.",
+      "rating": 5
+    },
+    {
+      "name": "Kund 2",
+      "role": "Göteborg",
+      "text": "[ANPASSA TEXT]: verkligt kundomdöme.",
+      "rating": 5
+    },
+    {
+      "name": "Kund 3",
+      "role": "Göteborg",
+      "text": "[ANPASSA TEXT]: verkligt kundomdöme.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "Vad kostar snickeri i Göteborg?",
+      "a": "[ANPASSA TEXT]"
+    },
+    {
+      "q": "Hur snabbt kan ni starta?",
+      "a": "[ANPASSA TEXT]"
+    },
+    {
+      "q": "Vilka områden täcker ni?",
+      "a": "[ANPASSA TEXT]"
+    },
+    {
+      "q": "Hur fungerar offertprocessen?",
+      "a": "[ANPASSA TEXT]"
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Relaterad tjänst 1",
+      "slug": "snickeri",
+      "desc": "[ANPASSA TEXT]"
+    }
+  ]
+}

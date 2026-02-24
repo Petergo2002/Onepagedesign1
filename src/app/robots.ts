@@ -1,14 +1,24 @@
 import { MetadataRoute } from 'next'
 import { toAbsoluteUrl } from '@/config/site'
+import { getAppMode } from '@/lib/template/profile'
 
 export default function robots(): MetadataRoute.Robots {
+  if (getAppMode() === 'mockup') {
     return {
-        rules: {
-            userAgent: '*',
-            allow: '/',
-            disallow: ['/api/', '/admin/'], // Block API and future admin routes
-        },
-        sitemap: toAbsoluteUrl('/sitemap.xml'),
-        host: toAbsoluteUrl('/'),
+      rules: {
+        userAgent: '*',
+        disallow: '/',
+      },
     }
+  }
+
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: ['/api/', '/admin/'],
+    },
+    sitemap: toAbsoluteUrl('/sitemap.xml'),
+    host: toAbsoluteUrl('/'),
+  }
 }

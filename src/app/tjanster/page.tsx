@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { ArrowRight, Zap } from 'lucide-react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import Breadcrumbs from '../components/Breadcrumbs'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
+import Breadcrumbs from '@/components/Breadcrumbs'
 import { SERVICES } from '@/lib/services'
 import { industryCopy } from '@/config/industry'
 

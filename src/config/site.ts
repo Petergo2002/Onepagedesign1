@@ -1,12 +1,6 @@
-export const siteConfig = {
-  brandName: "Svensk Bygg & Snickeri",
-  brandShort: "SBS",
-  domain: "svenskbygg.se",
-  phoneDisplay: "08-123 45 67",
-  phoneHref: "tel:+4681234567",
-  email: "offert@svenskbygg.se",
-  defaultLocale: 'sv_SE',
-} as const
+import { loadActiveProfile } from '@/lib/template/profile'
+
+export const siteConfig = loadActiveProfile().site
 
 export const siteUrl = `https://${siteConfig.domain}`
 

@@ -6,11 +6,16 @@
     "clean": "rm -rf .next",
     "dev": "next dev",
     "dev:clean": "npm run clean && next dev",
+    "prebuild": "npm run template:validate",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "workflow:new-location": "node scripts/create-service-location-page.mjs",
-    "workflow:industry-refactor": "node scripts/refactor-industry-template.mjs"
+    "template:new-profile": "node scripts/template-new-profile.mjs",
+    "template:new-location": "node scripts/create-service-location-page.mjs",
+    "template:validate": "node scripts/template-validate.mjs",
+    "mockup:promote": "node scripts/mockup-promote.mjs",
+    "workflow:industry-refactor": "node scripts/refactor-industry-template.mjs",
+    "workflow:mockup-persona": "node scripts/mockup-persona.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

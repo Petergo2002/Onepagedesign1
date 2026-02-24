@@ -8,16 +8,7 @@ const nextConfig: NextConfig = {
   */
 
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'i.pravatar.cc',
-      },
-    ],
+    qualities: [60, 75, 80],
   },
 
   // Base path if your app is served from a subdirectory

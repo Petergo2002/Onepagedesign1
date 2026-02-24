@@ -1,27 +1,29 @@
 import { Metadata } from 'next'
-import NavBar from '@/app/components/NavBar'
-import Footer from '@/app/components/Footer'
-import About from '@/app/components/About'
-import Testimonials from '@/app/components/Testimonials'
-import ContactCTA from '@/app/components/ContactCTA'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
+import About from '@/components/About'
+import Testimonials from '@/components/Testimonials'
+import ContactCTA from '@/components/ContactCTA'
+import { siteConfig } from '@/config/site'
+import { industryCopy } from '@/config/industry'
 
 export const metadata: Metadata = {
-    title: 'Om Oss | Byggföretag i Göteborg',
-    description: 'Läs mer om vårt bygg- och snickeriföretag i Göteborg. Vi brinner för att förverkliga våra kunders byggdrömmar med högsta yrkesstolthet.',
+  title: `Om oss | ${siteConfig.brandName}`,
+  description: `Läs mer om ${siteConfig.brandName} och hur vi arbetar med ${industryCopy.pluralLabel}.`,
 }
 
 export default function AboutPage() {
-    return (
-        <div className="min-h-screen bg-black text-white selection:bg-brand-500/30">
-            <NavBar />
+  return (
+    <div className="min-h-screen bg-black text-white selection:bg-brand-500/30">
+      <NavBar />
 
-            <main className="pt-20">
-                <About />
-                <Testimonials />
-                <ContactCTA />
-            </main>
+      <main className="pt-20">
+        <About />
+        <Testimonials />
+        <ContactCTA />
+      </main>
 
-            <Footer />
-        </div>
-    )
+      <Footer />
+    </div>
+  )
 }

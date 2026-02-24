@@ -1,0 +1,142 @@
+{
+  "serviceSlug": "byggentreprenad",
+  "serviceName": "Byggentreprenad",
+  "locationName": "Stockholm",
+  "locationSlug": "stockholm",
+  "schemaType": "GeneralContractor",
+  "gbpCategory": "Byggfirma",
+  "businessName": "Stockholm Byggpartner",
+  "businessAddress": {
+    "streetAddress": "Gardsfogdevagen 8",
+    "postalCode": "168 66",
+    "addressLocality": "Stockholm",
+    "addressRegion": "Stockholms lan",
+    "addressCountry": "SE"
+  },
+  "sameAs": [
+    "https://example.se"
+  ],
+  "pageTitle": "Byggentreprenad i Stockholm",
+  "metaTitle": "Byggfirma Stockholm | Stockholm Byggpartner",
+  "metaDesc": "Byggfirma i Stockholm med tydlig projektplan, samordning och kvalitet i varje etapp.",
+  "heroTitle": "Byggentreprenad i Stockholm",
+  "heroSubtitle": "Vi leder byggprojekt med tydlig planering och trygg leverans fran start till overlamning.",
+  "heroImg": "/video/videohero1.mp4",
+  "phoneHref": "tel:+46812145930",
+  "phoneLabel": "08-121 45 930",
+  "responseText": "Vi svarar vanligtvis inom 60 minuter under vardagar.",
+  "features": [
+    {
+      "title": "Projektledning pa plats",
+      "desc": "Vi planerar och styr arbetet i tydliga etapper.",
+      "icon": "map-pin"
+    },
+    {
+      "title": "Kvalitet i varje steg",
+      "desc": "Alla moment foljs upp innan nasta etapp startar.",
+      "icon": "shield-check"
+    }
+  ],
+  "offerings": [
+    {
+      "title": "Ombyggnad och renovering",
+      "desc": "Vi hanterar helheten i projekt dar funktion, estetik och tidplan maste fungera tillsammans.",
+      "details": "Passar bostad, BRF och foretag som vill ha en tydlig entreprenadmodell.",
+      "highlights": [
+        "Tydlig projektplan och budget",
+        "Samordning av alla yrkesgrupper",
+        "Lopande uppfoljning till slut"
+      ],
+      "img": "/video/videohero.mp4"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Otydliga projektroller",
+      "desc": "Manga projekt tappar fart nar ansvar och beslutsvagar ar otydliga. Vi klargor roller fran dag ett."
+    },
+    {
+      "title": "Forseningar mellan etapper",
+      "desc": "Bristande samordning ger stopp i produktionen. Vi arbetar med planerad overlamning mellan varje moment."
+    }
+  ],
+  "process": [
+    {
+      "title": "1. Forstudie",
+      "desc": "Vi definierar behov, forutsattningar och malbild tillsammans med dig."
+    },
+    {
+      "title": "2. Projektplan",
+      "desc": "Du far omfattning, tidplan och kostnadsbild i en tydlig struktur."
+    },
+    {
+      "title": "3. Produktion",
+      "desc": "Vi samordnar hantverkare, leveranser och kvalitetskontroller i varje etapp."
+    },
+    {
+      "title": "4. Overlamning",
+      "desc": "Projektet avslutas med slutgenomgang och dokumentation."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Ombyggnad av kontorsyta",
+      "area": "Stockholm city",
+      "challenge": "Projektet behovde genomforas utan att stoppa den dagliga verksamheten.",
+      "solution": "Vi planerade etapper och samordnade arbete utanfor kritiska tider.",
+      "result": "Projektet levererades enligt plan med minimal driftstorning.",
+      "img": "/video/videohero1.mp4"
+    }
+  ],
+  "priceExamples": [
+    {
+      "title": "Mindre byggentreprenad",
+      "price": "Fran 89 000 kr",
+      "desc": "Pris beroende pa omfattning, materialval och tidsram."
+    },
+    {
+      "title": "Storre ombyggnad",
+      "price": "Fran 290 000 kr",
+      "desc": "Entreprenad med samordning av flera moment och yrkesgrupper."
+    }
+  ],
+  "areas": [
+    "Stockholm",
+    "Solna",
+    "Nacka",
+    "Taby",
+    "Huddinge",
+    "Sundbyberg"
+  ],
+  "reviews": [
+    {
+      "name": "Martin",
+      "role": "BRF, Huddinge",
+      "text": "Bra planering och tydlig kommunikation genom hela projektet.",
+      "rating": 5
+    },
+    {
+      "name": "Karin",
+      "role": "Foretag, Solna",
+      "text": "Proffsigt team som holl tidplanen och var tydliga i varje steg.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ni ta totalansvar for projektet?",
+      "a": "Ja, vi kan leda hela entreprenaden och samordna alla moment fran start till overlamning."
+    },
+    {
+      "q": "Hur foljer ni upp projektets framdrift?",
+      "a": "Vi arbetar med fasta etapper och lopande avstamningar sa att du alltid vet aktuell status."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Projektledning",
+      "slug": "byggentreprenad",
+      "desc": "Tydlig styrning och samordning av byggprojekt i flera etapper."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "serviceSlug": "stadning",
+  "serviceName": "Stadning",
+  "locationName": "Stockholm",
+  "locationSlug": "stockholm",
+  "schemaType": "HouseCleaningService",
+  "gbpCategory": "Stadfirma",
+  "businessName": "Stockholm Stadservice",
+  "businessAddress": {
+    "streetAddress": "Sankt Eriksgatan 58",
+    "postalCode": "112 34",
+    "addressLocality": "Stockholm",
+    "addressRegion": "Stockholms lan",
+    "addressCountry": "SE"
+  },
+  "sameAs": [
+    "https://example.se"
+  ],
+  "pageTitle": "Stadning i Stockholm",
+  "metaTitle": "Stadfirma Stockholm | Stockholm Stadservice",
+  "metaDesc": "Stadfirma i Stockholm med tydliga rutiner for hem, kontor och fastighet.",
+  "heroTitle": "Stadning i Stockholm",
+  "heroSubtitle": "Vi levererar noggrann stadning med fasta rutiner och tydlig uppfoljning.",
+  "heroImg": "/demo-images/bygg-hero.svg",
+  "phoneHref": "tel:+46812145910",
+  "phoneLabel": "08-121 45 910",
+  "responseText": "Vi svarar oftast inom 30-60 minuter under vardagar.",
+  "features": [
+    {
+      "title": "Tydliga rutiner",
+      "desc": "Varje uppdrag utfors enligt checklista for jamn kvalitet.",
+      "icon": "check-circle-2"
+    },
+    {
+      "title": "Lokal narvaro",
+      "desc": "Vi arbetar dagligen i Stockholm och narliggande kommuner.",
+      "icon": "map-pin"
+    }
+  ],
+  "offerings": [
+    {
+      "title": "Hemstadning",
+      "desc": "Regelbunden stadning med fasta rutiner for en ren och trivsam vardag.",
+      "details": "Vi anpassar upplagget efter storlek pa bostad och onskad frekvens.",
+      "highlights": [
+        "Fasta dagar och tider",
+        "Tydlig checklista per tillfalle",
+        "Snabb uppfoljning vid justering"
+      ],
+      "img": "/demo-images/bygg-hero.svg"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Brist pa kontinuitet",
+      "desc": "Manga upplever varierande kvalitet mellan tillfallen. Vi jobbar med fasta rutiner for att losa det."
+    },
+    {
+      "title": "Svarigheter att folja upp",
+      "desc": "Utan tydlig kontaktvag blir uppfoljning seg. Hos oss har du en ansvarig kontaktperson."
+    }
+  ],
+  "process": [
+    {
+      "title": "1. Behovsanalys",
+      "desc": "Vi kartlagger ytor, frekvens och onskat resultat."
+    },
+    {
+      "title": "2. Offert och uppstart",
+      "desc": "Du far en tydlig offert och vi bokar uppstart efter overenskommelse."
+    },
+    {
+      "title": "3. Leverans enligt rutin",
+      "desc": "Teamet utfor stadningen enligt checklista och kvalitetskrav."
+    },
+    {
+      "title": "4. Uppfoljning",
+      "desc": "Vi foljer upp och justerar upplagget for att sakerstalla jamn kvalitet."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Kontorsstadning i Vasastan",
+      "area": "Vasastan",
+      "challenge": "Kontoret hade ojamn kvalitet och otydlig kommunikation med tidigare leverantor.",
+      "solution": "Vi inforde fasta rutiner, tydlig kontaktperson och manadsvis uppfoljning.",
+      "result": "Stabil leverans med tydlig ansvarsfordelning och nojdare personal.",
+      "img": "/demo-images/bygg-hero.svg"
+    }
+  ],
+  "priceExamples": [
+    {
+      "title": "Hemstadning varannan vecka",
+      "price": "Fran 1 590 kr/man",
+      "desc": "Pris beroende pa yta, frekvens och eventuella tillaggstjanster."
+    },
+    {
+      "title": "Kontorsstadning",
+      "price": "Fran 3 900 kr/man",
+      "desc": "Anpassat upplagg efter lokalens storlek och behov."
+    }
+  ],
+  "areas": [
+    "Sodermalm",
+    "Kungsholmen",
+    "Vasastan",
+    "Solna",
+    "Sundbyberg",
+    "Nacka"
+  ],
+  "reviews": [
+    {
+      "name": "Ida",
+      "role": "Privatkund, Sodermalm",
+      "text": "Vi fick precis den hjalp vi behovde och kvalitetsnivan ar jamn varje gang.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus",
+      "role": "Kontor, Solna",
+      "text": "Bra service och enkel kommunikation. Allt fungerar smidigt.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "Erbjuder ni fasta tider?",
+      "a": "Ja, vi erbjuder fasta tider i de flesta upplagg for att gora planeringen enkel."
+    },
+    {
+      "q": "Kan ni starta snabbt?",
+      "a": "I manga fall kan vi starta inom en vecka beroende pa omrade och omfattning."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Kontorsstadning",
+      "slug": "stadning",
+      "desc": "Regelbunden stadning med tydlig uppfoljning for foretag."
+    }
+  ]
+}

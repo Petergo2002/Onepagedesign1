@@ -1,5 +1,4 @@
 
-import { CheckCircle2 } from 'lucide-react'
 import type { ProcessStep } from '@/lib/service-location-pages/types'
 
 interface ProcessStepsProps {

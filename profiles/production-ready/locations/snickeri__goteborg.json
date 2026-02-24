@@ -1,0 +1,128 @@
+{
+  "serviceSlug": "snickeri",
+  "serviceName": "Snickeri",
+  "locationName": "Göteborg",
+  "locationSlug": "goteborg",
+  "schemaType": "LocalBusiness",
+  "gbpCategory": "Snickare",
+  "businessName": "Nordisk Snickeri Göteborg",
+  "businessAddress": {
+    "streetAddress": "Långgatan 10",
+    "postalCode": "417 03",
+    "addressLocality": "Göteborg",
+    "addressRegion": "Västra Götaland",
+    "addressCountry": "SE"
+  },
+  "sameAs": ["https://www.facebook.com/nordisksnickeri", "https://www.instagram.com/nordisksnickeri"],
+  "pageTitle": "Snickeri i Göteborg",
+  "metaTitle": "Snickare Göteborg | Nordisk Snickeri",
+  "metaDesc": "Behöver du snickeri i Göteborg? Nordisk Snickeri hjälper dig med renovering, platsbyggt och service med tydlig offert och trygg leverans.",
+  "heroTitle": "Snickeri i Göteborg med tydlig plan och hög finish",
+  "heroSubtitle": "Vi hjälper privatpersoner, BRF:er och företag i Göteborg med snickeriarbeten anpassade efter fastighet, budget och tidsplan.",
+  "heroImg": "/demo-images/bygg-hero.svg",
+  "phoneHref": "tel:+4631123456",
+  "phoneLabel": "031-12 34 56",
+  "responseText": "Svar oftast inom 1 timme under vardagar.",
+  "features": [
+    { "title": "Lokalt team", "desc": "Vi är snabbt på plats i hela Göteborg med omnejd.", "icon": "map-pin" },
+    { "title": "Tydlig offert", "desc": "Du får transparent omfattning, pris och leveransdatum.", "icon": "clock-3" },
+    { "title": "Dokumenterad kvalitet", "desc": "Vi arbetar med tydlig kontroll och uppföljning i varje steg.", "icon": "shield-check" }
+  ],
+  "offerings": [
+    {
+      "title": "Renovering och ombyggnad",
+      "desc": "Vi genomför snickerirenoveringar för kök, hall, sovrum och andra ytor.",
+      "details": "Vi anpassar lösningen efter befintlig planlösning och funktionella behov.",
+      "highlights": ["Planering och mätning", "Professionellt utförande", "Slutkontroll"],
+      "img": "/demo-images/bygg-hero.svg"
+    },
+    {
+      "title": "Platsbyggd inredning",
+      "desc": "Skräddarsydda lösningar för förvaring, arbetsytor och specialsnickeri.",
+      "details": "Vi levererar funktionella lösningar som harmonierar med bostadens stil.",
+      "highlights": ["Måttanpassning", "Materialrådgivning", "Hög finish"],
+      "img": "/demo-images/bygg-hero.svg"
+    },
+    {
+      "title": "Löpande service",
+      "desc": "Mindre justeringar, underhåll och återställning efter slitage.",
+      "details": "Snabb hjälp med tydlig kommunikation och rätt prioritering.",
+      "highlights": ["Snabb återkoppling", "Flexibel bokning", "Trygg leverans"],
+      "img": "/demo-images/bygg-hero.svg"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Slitage i äldre bostäder",
+      "desc": "Många fastigheter i Göteborg kräver anpassade snickerilösningar i äldre konstruktioner."
+    },
+    {
+      "title": "Otydlig projektstyrning",
+      "desc": "Kunder upplever ofta osäkerhet kring tidsplan och ansvar när flera aktörer är inblandade."
+    },
+    {
+      "title": "Bristande finish",
+      "desc": "Detaljer och avslut blir lätt eftersatta utan tydliga kvalitetskrav."
+    }
+  ],
+  "process": [
+    { "title": "1. Behov och mål", "desc": "Vi kartlägger behov, omfattning och prioriteringar tillsammans med dig." },
+    { "title": "2. Offert och plan", "desc": "Du får en tydlig offert med omfattning, tidplan och kostnadsbild." },
+    { "title": "3. Genomförande", "desc": "Arbetet utförs enligt plan med löpande kommunikation." },
+    { "title": "4. Slutleverans", "desc": "Vi avslutar med kvalitetskontroll och överlämning." }
+  ],
+  "caseStudies": [
+    {
+      "title": "Köksrenovering i Linnéstaden",
+      "area": "Göteborg",
+      "challenge": "Begränsad yta och behov av bättre förvaring.",
+      "solution": "Platsbyggda skåp och omdisponerad arbetsyta.",
+      "result": "Mer funktionellt kök och bättre arbetsflöde.",
+      "img": "/demo-images/bygg-hero.svg"
+    },
+    {
+      "title": "Kontorsanpassning på Hisingen",
+      "area": "Göteborg",
+      "challenge": "Behov av snabb ombyggnation utan driftstopp.",
+      "solution": "Etappvis utförande med tydlig tidplan.",
+      "result": "Nya ytor i tid med minimal påverkan på verksamheten.",
+      "img": "/demo-images/bygg-hero.svg"
+    }
+  ],
+  "priceExamples": [
+    { "title": "Mindre snickeriåtgärd", "price": "Från 5 900 kr", "desc": "Servicejobb och enklare justeringar." },
+    { "title": "Mellanprojekt", "price": "Från 24 000 kr", "desc": "Renovering av avgränsad yta med material och montage." },
+    { "title": "Större anpassning", "price": "Från 69 000 kr", "desc": "Omfattande snickeriarbeten med projektstyrning." }
+  ],
+  "areas": ["Göteborg", "Mölndal", "Partille", "Kungälv", "Hisingen"],
+  "reviews": [
+    {
+      "name": "Anna L",
+      "role": "Linnéstaden",
+      "text": "Strukturerad process och väldigt snyggt slutresultat.",
+      "rating": 5
+    },
+    {
+      "name": "Johan P",
+      "role": "Hisingen",
+      "text": "Bra kommunikation och leverans enligt plan.",
+      "rating": 5
+    },
+    {
+      "name": "Sara M",
+      "role": "Mölndal",
+      "text": "Tydlig offert och proffsigt genomfört från start till mål.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    { "q": "Vad kostar snickeri i Göteborg?", "a": "Priset beror på omfattning, material och tidsåtgång. Vi lämnar alltid en tydlig offert efter genomgång." },
+    { "q": "Hur snabbt kan ni starta?", "a": "För mindre jobb kan vi ofta starta inom 1-2 veckor. Större projekt planeras enligt tillgänglig kapacitet." },
+    { "q": "Vilka områden täcker ni?", "a": "Vi arbetar i Göteborg med omnejd, inklusive Mölndal, Partille, Kungälv och Hisingen." },
+    { "q": "Kan ni ta helhetsansvar?", "a": "Ja, vi kan driva projektet från planering till färdig leverans och samordna relevanta underentreprenörer." }
+  ],
+  "relatedServices": [
+    { "title": "Renovering", "slug": "snickeri", "desc": "Helhetslösningar för ombyggnad och förbättring av befintliga ytor." },
+    { "title": "Platsbyggd inredning", "slug": "snickeri", "desc": "Måttanpassade lösningar för bättre funktion och estetik." }
+  ]
+}

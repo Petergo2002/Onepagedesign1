@@ -1,0 +1,142 @@
+{
+  "serviceSlug": "elinstallation",
+  "serviceName": "Elinstallation",
+  "locationName": "Stockholm",
+  "locationSlug": "stockholm",
+  "schemaType": "Electrician",
+  "gbpCategory": "Elektriker",
+  "businessName": "Stockholm Eljour",
+  "businessAddress": {
+    "streetAddress": "Sveavagen 96",
+    "postalCode": "113 50",
+    "addressLocality": "Stockholm",
+    "addressRegion": "Stockholms lan",
+    "addressCountry": "SE"
+  },
+  "sameAs": [
+    "https://example.se"
+  ],
+  "pageTitle": "Elinstallation i Stockholm",
+  "metaTitle": "Elektriker Stockholm | Stockholm Eljour",
+  "metaDesc": "Elektriker i Stockholm for installation, felsokning och snabb elservice.",
+  "heroTitle": "Elinstallation i Stockholm",
+  "heroSubtitle": "Vi levererar saker elinstallation med tydlig plan, snabb service och dokumenterat resultat.",
+  "heroImg": "/video/159678-819389843_tiny.mp4",
+  "phoneHref": "tel:+46812145920",
+  "phoneLabel": "08-121 45 920",
+  "responseText": "Vi svarar normalt inom 30 minuter under vardagar.",
+  "features": [
+    {
+      "title": "Auktoriserade elektriker",
+      "desc": "Allt arbete utforst av behoriga elektriker med tydlig kvalitetskontroll.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Snabb installelsetid",
+      "desc": "Vi prioriterar akuta arenden och kan ofta vara pa plats samma dag.",
+      "icon": "clock-3"
+    }
+  ],
+  "offerings": [
+    {
+      "title": "Installation och uppgradering",
+      "desc": "Vi installerar ny el och uppgraderar befintliga system for battre sakerhet och funktion.",
+      "details": "Passar for hem, kontor och fastigheter som behover modernisering eller anpassning.",
+      "highlights": [
+        "Tydlig plan och kostnadsbild",
+        "Auktoriserad installation",
+        "Dokumentation efter slutfört jobb"
+      ],
+      "img": "/video/videohero1.mp4"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Aterkommande driftstorningar",
+      "desc": "Aldre elanlaggningar kan skapa onodiga avbrott. Vi felsoker orsak och atgardar langsiktigt."
+    },
+    {
+      "title": "Otillracklig kapacitet",
+      "desc": "Vid ombyggnad eller nya behov kravs ofta uppgradering av system och belastningsfordelning."
+    }
+  ],
+  "process": [
+    {
+      "title": "1. Teknisk genomgang",
+      "desc": "Vi analyserar nuvarande lag och identifierar battre losning utifran behov och regelkrav."
+    },
+    {
+      "title": "2. Offert och plan",
+      "desc": "Du far tydlig omfattning, pris och tidsbild innan arbete startar."
+    },
+    {
+      "title": "3. Installation",
+      "desc": "Arbetet utforst med fokus pa sakerhet, funktion och minsta mojliga storning."
+    },
+    {
+      "title": "4. Test och overlamning",
+      "desc": "Vi testar funktionen, dokumenterar resultatet och gar igenom nasta steg med dig."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Eluppgradering i kontorsfastighet",
+      "area": "Stockholm City",
+      "challenge": "Fastigheten hade aterkommande avbrott och otillracklig kapacitet i vissa zoner.",
+      "solution": "Vi uppgraderade centrala delar, forbattrade fordelning och inforde tydligare driftstruktur.",
+      "result": "Stabilare drift och battre kapacitet for verksamheten.",
+      "img": "/video/159678-819389843_tiny.mp4"
+    }
+  ],
+  "priceExamples": [
+    {
+      "title": "Felsokning och atgard",
+      "price": "Fran 2 490 kr",
+      "desc": "Vanliga elfel med felsokning pa plats och rekommenderad atgard."
+    },
+    {
+      "title": "Storre elinstallation",
+      "price": "Fran 14 900 kr",
+      "desc": "Pris beroende pa omfattning, material och fastighetens forutsattningar."
+    }
+  ],
+  "areas": [
+    "Stockholm",
+    "Solna",
+    "Nacka",
+    "Taby",
+    "Huddinge",
+    "Sundbyberg"
+  ],
+  "reviews": [
+    {
+      "name": "Oskar",
+      "role": "Privatkund, Taby",
+      "text": "Snabb service och tydlig forklaring. Vi visste exakt vad som gjordes.",
+      "rating": 5
+    },
+    {
+      "name": "Helena",
+      "role": "Foretag, Stockholm",
+      "text": "Proffsigt genomforande och bra planering for att minimera avbrott i verksamheten.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kan ni hjalpa med akuta elproblem?",
+      "a": "Ja, vi prioriterar akuta arenden och gor en snabb bedomning direkt."
+    },
+    {
+      "q": "Tar ni hand om dokumentation efter installation?",
+      "a": "Ja, vi levererar relevant dokumentation och gar igenom arbetet vid overlamning."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Elservice och underhall",
+      "slug": "elinstallation",
+      "desc": "Forebyggande kontroller och service for stabil drift over tid."
+    }
+  ]
+}

@@ -1,170 +1,118 @@
-# Onboarding Per Ny Kund (SEO Service + Område)
+# Onboarding (Ny Kund)
 
-Detta dokument används varje gång en ny kund onboardas i denna mall.
-Målet är att vi alltid samlar rätt input från start och levererar SEO-sidor som kan ranka och generera leads.
+Denna guide ar ditt exakta flode nar du far en ny kund.
 
-## 1. Snabböversikt (Vad kunden köper)
+## 1. Hur systemet fungerar
 
-Kunden köper normalt:
+1. Ett repo innehaller all kod.
+2. Varje kund far en egen `profile` i `profiles/<kund-id>/`.
+3. Branch anvands som arbetsyta/version.
+4. `TEMPLATE_PROFILE` bestammer vilken kunds data som visas.
+5. `APP_MODE=mockup` for demo, `APP_MODE=production` for skarp leverans.
 
-- `X` tjänster
-- `Y` områden
-- Totalt antal SEO-sidor = `X * Y`
+## 2. Snabb demo under event (5-10 min)
 
-Exempel:
+### 2.1 Valt baslage
 
-- 2 tjänster + 3 områden = 6 lokala SEO-sidor
+1. Tak: `demo-template-tak` + `demo-tak`
+2. Bygg: `demo-template-bygg` + `demo-bygg`
+3. El: `demo-template-el` + `demo-el`
 
-## 2. Obligatorisk Kundinformation (måste in innan arbete startar)
+### 2.2 Starta demo
 
-### A) Företagsbas
-
-- Företagsnamn (exakt, som i Google Business Profile)
-- Organisationsnamn för faktura
-- Telefonnummer för CTA
-- E-post för leads
-- Domän
-- Stad/region där företaget faktiskt verkar
-
-### B) GBP / Local SEO-data
-
-- Primär GBP-kategori (exakt text)
-- Sekundära GBP-kategorier
-- Exakt NAP:
-  - Name
-  - Address
-  - Phone
-- Länkar för `sameAs`:
-  - Facebook
-  - Instagram
-  - LinkedIn
-  - YouTube
-  - Apple Maps/Bing/andra profiler (om finns)
-
-### C) Kommersiell scope
-
-- Vilka tjänster ska säljas just nu?
-- Vilka områden/städer ska ingå i denna leverans?
-- Vilka tjänster ska bara synas kort på startsidan (ej fulla SEO-sidor)?
-- Prioriteringsordning (vilken tjänst/ort först)
-
-### D) Lead och affär
-
-- Primär CTA (Ring / Offertformulär / Boka möte)
-- Mål per månad (antal leads)
-- Budgettak och tidsram
-- KPI:er som kunden bryr sig om (samtal, formulär, ranking, trafik)
-
-## 3. Frågor att ställa i första kundmötet (exakta frågor)
-
-1. "Vilka tjänster vill ni få fler förfrågningar på de kommande 3 månaderna?"
-2. "Vilka områden är viktigast för er lönsamhet?"
-3. "Vilken tjänst + område är högst prioriterad om vi börjar med en sida?"
-4. "Hur ser ett bra lead ut för er (privatperson, BRF, företag)?"
-5. "Vad är era vanligaste kundproblem per område?"
-6. "Har ni lokala case/referenser vi kan använda per stad?"
-7. "Vilket telefonnummer och vilken CTA ska vara primär på alla lokalsidor?"
-8. "Är er GBP helt uppdaterad med rätt kategorier och tjänster idag?"
-
-## 4. Leverabel-matris (fyll i per kund)
-
-| Tjänst | Område | URL | Status |
-|---|---|---|---|
-| elinstallation | goteborg | /tjanster/elinstallation/goteborg | planerad |
-| ... | ... | ... | ... |
-
-Använd denna matris för att undvika scope-glidning.
-
-## 5. Arbetsflöde i repot (per ny sida)
-
-1. Skapa sida via generator:
+Exempel tak:
 
 ```bash
-npm run workflow:new-location -- --service <service-slug> --location <location-slug> --service-name "<Service Name>" --location-name "<Location Name>" --gbp-category "<Exakt GBP kategori>"
+git checkout demo-template-tak
+APP_MODE=mockup TEMPLATE_PROFILE=demo-tak npm run dev
 ```
 
-2. Uppdatera JSON:
+### 2.3 Minimal personalisering innan visning
 
-- Fil: `src/lib/service-location-pages/data/<service>__<location>.json`
-- Måste fyllas:
-  - `gbpCategory`
-  - `businessName`
-  - `businessAddress`
-  - `sameAs`
-  - hela sidcopy (meta, hero, offerings, localProblems, case, FAQ, etc.)
+Andra endast:
 
-3. Kvalitetskontroll:
+1. `brandName`
+2. `phoneDisplay`
+3. `email`
+
+Filer:
+
+1. `profiles/<profil-id>/site.ts`
+2. (vid behov) `profiles/<profil-id>/locations/*.json`
+
+## 3. När prospect blir varm (egen kundprofil)
+
+### 3.1 Skapa branch + profil
 
 ```bash
-npm run lint
-npm run build
+git checkout -b kund/<kund-id>
+npm run template:new-profile -- --id <kund-id>
 ```
 
-## 6. Innehållskrav per lokal sida (måste uppfyllas)
+### 3.2 Sätt persona snabbt
 
-- Meta title med lokal intent (kategori + stad)
-- Unik lokal hero-copy (inte find/replace)
-- Minst 2 hyperlokala signaler i texten:
-  - stadsdelar
-  - lokalt klimat/byggtyp
-  - vanliga lokala problem
-- Minst ett lokalt case med utmaning/lösning/resultat
-- Lokal FAQ som matchar verkliga frågor
-- Relevanta interna länkar till tjänstehub och relaterade tjänster
+```bash
+npm run workflow:mockup-persona -- --profile <kund-id> --persona <taklaggare|bygg|elektriker> --city <city-slug> --city-name "<City Name>" --brand-name "<Brand Name>"
+```
 
-## 7. Definition of Done per kundleverans
+### 3.3 Kör och kontrollera
 
-En kundleverans är klar när:
+```bash
+APP_MODE=mockup TEMPLATE_PROFILE=<kund-id> npm run dev
+APP_MODE=mockup TEMPLATE_PROFILE=<kund-id> npm run template:validate
+```
 
-- Alla köpta `tjänst x område`-sidor är byggda
-- NAP och GBP-kategori matchar kundens profil
-- `npm run lint` och `npm run build` passerar
-- Internlänkning finns från tjänstehub till alla lokalsidor
-- Kunden har godkänt copy + CTA
+## 4. Från demo till produktion
 
-## 8. Utanför repot (måste göras för SEO-effekt)
+### 4.1 Fyll riktig kunddata
 
-- Uppdatera GBP kategorier och tjänster
-- Säkerställ NAP-konsistens över profiler/kataloger
-- Publicera/uppdatera viktiga citations
-- Skapa externa länkar till nya lokala URL:er
-- Mät i GSC + GA4 + samtal/formulärspårning
+1. Kontaktuppgifter
+2. Unique copy
+3. Riktiga bilder/video
+4. FAQ/reviews/related services
 
-## 9. Snabb brief-mall att skicka till kund
+### 4.2 Produktionskontroll
 
-Kopiera och fyll i:
+```bash
+APP_MODE=production TEMPLATE_PROFILE=<kund-id> npm run template:validate
+APP_MODE=production TEMPLATE_PROFILE=<kund-id> npm run build
+```
+
+## 5. Vercel + doman (per kund)
+
+1. Ett Vercel project per kund.
+2. Deploy från kundens branch.
+3. Miljovariabler i Vercel:
+   - `APP_MODE=production`
+   - `TEMPLATE_PROFILE=<kund-id>`
+4. Koppla kundens doman till samma Vercel project.
+
+## 6. AI-prompt du kan copy-paste
 
 ```text
-Kundnamn:
-Domän:
-Primär GBP-kategori:
-Sekundära GBP-kategorier:
-Telefon (CTA):
-Lead-mail:
+Jag har en ny kund.
+Skapa allt i detta repo med dessa krav:
 
-Tjänster som ska säljas:
-1)
-2)
-3)
+Kund-id: <kund-id>
+Persona: <taklaggare|bygg|elektriker>
+Stad: <city-slug>
+City Name: <City Name>
+Brand Name: <Brand Name>
+Telefon: <phone>
+Email: <email>
 
-Områden som ska ingå:
-1)
-2)
-3)
-
-Prioritet (först ut):
-
-Lokala case/referenser vi får använda:
-
-SameAs-länkar:
-- Facebook:
-- Instagram:
-- LinkedIn:
-- Övrigt:
+Gor detta:
+1) skapa branch kund/<kund-id>
+2) skapa profile <kund-id>
+3) kor workflow:mockup-persona
+4) uppdatera brand/contact i profile-filer
+5) kor mockup validate
+6) ge mig exakt kommando for att starta demo
 ```
 
-## 10. Viktig princip
+## 7. Vanliga misstag
 
-Bygg hellre färre men starka sidor än många tunna sidor.
-
-Varje lokal sida ska kännas som en riktig landningssida för en verklig kund i just den staden.
+1. Fel `TEMPLATE_PROFILE` i terminalen.
+2. Jobb pa fel branch.
+3. Placeholder/copy kvar vid production build.
+4. Ingen restart av dev-server efter stor profilandring.

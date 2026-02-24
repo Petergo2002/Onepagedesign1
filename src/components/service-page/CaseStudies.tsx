@@ -11,6 +11,11 @@ function isRenderable(src: string | null | undefined): boolean {
     return s.startsWith('/') || s.startsWith('http')
 }
 
+function isVideoSrc(src: string | null | undefined): src is string {
+    if (!src) return false
+    return /\.(mp4|webm|ogg)(\?.*)?$/i.test(src.trim())
+}
+
 interface CaseStudiesProps {
     cases: CaseStudy[]
     locationName: string
@@ -32,6 +37,7 @@ export const CaseStudies = ({ cases, locationName, serviceName }: CaseStudiesPro
                 <div className="space-y-16 md:space-y-24">
                     {cases.map((item, idx) => {
                         const hasImage = isRenderable(item.img)
+                        const isVideo = isVideoSrc(item.img)
                         const isEven = idx % 2 === 0
 
                         return (
@@ -69,13 +75,26 @@ export const CaseStudies = ({ cases, locationName, serviceName }: CaseStudiesPro
                                     <div className={`relative ${isEven ? 'lg:order-2' : 'lg:order-1'}`}>
                                         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-800 border border-white/10 group-hover:border-brand-500/30 transition-all duration-500 shadow-2xl shadow-black/50">
                                             {hasImage ? (
-                                                <Image
-                                                    src={item.img}
-                                                    alt={`${item.title} i ${item.area}`}
-                                                    fill
-                                                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                                                    sizes="(max-width: 1024px) 100vw, 50vw"
-                                                />
+                                                isVideo ? (
+                                                    <video
+                                                        src={item.img}
+                                                        className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                                        autoPlay
+                                                        muted
+                                                        loop
+                                                        playsInline
+                                                        preload="metadata"
+                                                        aria-label={`${item.title} i ${item.area}`}
+                                                    />
+                                                ) : (
+                                                    <Image
+                                                        src={item.img}
+                                                        alt={`${item.title} i ${item.area}`}
+                                                        fill
+                                                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                                                        sizes="(max-width: 1024px) 100vw, 50vw"
+                                                    />
+                                                )
                                             ) : (
                                                 <div className="absolute inset-0 grid place-items-center">
                                                     <span className="text-xs uppercase tracking-wider text-slate-600">Bild saknas</span>

@@ -12,6 +12,11 @@ function isRenderable(src: string | null | undefined): boolean {
     return s.startsWith('/') || s.startsWith('http')
 }
 
+function isVideoSrc(src: string | null | undefined): src is string {
+    if (!src) return false
+    return /\.(mp4|webm|ogg)(\?.*)?$/i.test(src.trim())
+}
+
 interface ServiceGridProps {
     offerings: Offering[]
     serviceName: string
@@ -35,17 +40,29 @@ export const ServiceGrid = ({ offerings, serviceName, locationName }: ServiceGri
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                    {offerings.map((offering) => {
+                    {offerings.map((offering, offeringIndex) => {
                         const hasImage = isRenderable(offering.img)
+                        const isVideo = isVideoSrc(offering.img)
 
                         return (
                             <article
-                                key={offering.title}
+                                key={`${offering.title}-${offeringIndex}`}
                                 className="group flex flex-col rounded-2xl bg-slate-900 border border-white/10 overflow-hidden hover:border-brand-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-brand-500/10"
                             >
                                 {/* Image Area */}
                                 <div className="relative aspect-video w-full overflow-hidden bg-slate-800">
-                                    {hasImage ? (
+                                    {hasImage && isVideo ? (
+                                        <video
+                                            src={offering.img}
+                                            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                            autoPlay
+                                            muted
+                                            loop
+                                            playsInline
+                                            preload="metadata"
+                                            aria-label={offering.title}
+                                        />
+                                    ) : hasImage ? (
                                         <Image
                                             src={offering.img}
                                             alt={offering.title}
@@ -74,8 +91,8 @@ export const ServiceGrid = ({ offerings, serviceName, locationName }: ServiceGri
                                     {/* Highlights */}
                                     <div className="pt-6 border-t border-white/5 mt-auto">
                                         <ul className="space-y-3">
-                                            {offering.highlights.slice(0, 3).map((point) => (
-                                                <li key={point} className="flex items-start gap-3 text-sm text-slate-300">
+                                            {offering.highlights.slice(0, 3).map((point, pointIndex) => (
+                                                <li key={`${offering.title}-${point}-${pointIndex}`} className="flex items-start gap-3 text-sm text-slate-300">
                                                     <CheckCircle2 size={16} className="text-brand-400 mt-0.5 shrink-0" />
                                                     <span className="leading-snug">{point}</span>
                                                 </li>

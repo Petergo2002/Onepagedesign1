@@ -7,10 +7,9 @@ import Link from 'next/link'
 
 interface StickyMobileCTAProps {
     phoneHref: string
-    phoneLabel: string
 }
 
-export const StickyMobileCTA = ({ phoneHref, phoneLabel }: StickyMobileCTAProps) => {
+export const StickyMobileCTA = ({ phoneHref }: StickyMobileCTAProps) => {
     const [isVisible, setIsVisible] = useState(false)
 
     useEffect(() => {

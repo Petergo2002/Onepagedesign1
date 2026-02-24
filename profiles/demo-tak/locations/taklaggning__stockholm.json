@@ -1,0 +1,142 @@
+{
+  "serviceSlug": "taklaggning",
+  "serviceName": "Taklaggning",
+  "locationName": "Stockholm",
+  "locationSlug": "stockholm",
+  "schemaType": "RoofingContractor",
+  "gbpCategory": "Taklaggare",
+  "businessName": "Stockholm Tak & Plat",
+  "businessAddress": {
+    "streetAddress": "Hantverksgatan 24",
+    "postalCode": "112 21",
+    "addressLocality": "Stockholm",
+    "addressRegion": "Stockholms lan",
+    "addressCountry": "SE"
+  },
+  "sameAs": [
+    "https://example.se"
+  ],
+  "pageTitle": "Taklaggning i Stockholm",
+  "metaTitle": "Taklaggare Stockholm | Stockholm Tak & Plat",
+  "metaDesc": "Taklaggare i Stockholm med tydlig offert, planerad leverans och dokumenterad slutkontroll.",
+  "heroTitle": "Taklaggning i Stockholm",
+  "heroSubtitle": "Vi hjalper villaagare, BRF och foretag med takprojekt som planeras tydligt och levereras tryggt.",
+  "heroImg": "/video/videohero.mp4",
+  "phoneHref": "tel:+46812145900",
+  "phoneLabel": "08-121 45 900",
+  "responseText": "Vi svarar normalt inom 60 minuter under vardagar.",
+  "features": [
+    {
+      "title": "Lokal projektledning",
+      "desc": "Vi planerar och foljer upp arbetet pa plats i hela Storstockholm.",
+      "icon": "map-pin"
+    },
+    {
+      "title": "Trygg arbetsmetod",
+      "desc": "Kvalitetskontroller i varje etapp minskar risk for fel och omtag.",
+      "icon": "shield-check"
+    }
+  ],
+  "offerings": [
+    {
+      "title": "Omlaggning av villatak",
+      "desc": "Komplett omlaggning med nytt ytskikt och kontroll av underlag.",
+      "details": "Passar dig som vill forlanga takets livslangd och undvika framtida fuktskador.",
+      "highlights": [
+        "Fast offert innan start",
+        "Tydlig tidsplan vecka for vecka",
+        "Slutkontroll med dokumentation"
+      ],
+      "img": "/video/videohero.mp4"
+    }
+  ],
+  "localProblems": [
+    {
+      "title": "Lackage vid genomforingar",
+      "desc": "Aldre tak i Stockholm far ofta problem runt skorstenar och genomforingar. Vi atgardar orsaken, inte bara symptomet."
+    },
+    {
+      "title": "Slitage efter vintersasong",
+      "desc": "Sno, is och temperaturvaxlingar sliter pa taket. Regelbunden kontroll minskar risk for dyra skador."
+    }
+  ],
+  "process": [
+    {
+      "title": "1. Platsbesok och behovsanalys",
+      "desc": "Vi gar igenom takets skick, risker och vilka atgarder som ger bast effekt."
+    },
+    {
+      "title": "2. Offert med fast omfattning",
+      "desc": "Du far en tydlig offert med materialval, tidslinje och ansvar per steg."
+    },
+    {
+      "title": "3. Genomforande",
+      "desc": "Arbetet utfors av samma team med lopande statusuppdateringar."
+    },
+    {
+      "title": "4. Slutbesiktning",
+      "desc": "Vi avslutar med genomgang, dokumentation och rekommendation for framtida underhall."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Tegeltak i Bromma",
+      "area": "Bromma",
+      "challenge": "Aterkommande fuktproblem kring genomforingar och nedsatt taksakerhet.",
+      "solution": "Vi genomforde omlaggning, bytte skadade detaljer och uppdaterade taksakerheten.",
+      "result": "Fastigheten fick ett tatt tak och minskad risk for framtida skador.",
+      "img": "/video/videohero1.mp4"
+    }
+  ],
+  "priceExamples": [
+    {
+      "title": "Takservice och kontroll",
+      "price": "Fran 4 900 kr",
+      "desc": "Kontroll, mindre atgarder och atgardsforslag."
+    },
+    {
+      "title": "Omlaggning villatak",
+      "price": "Fran 129 000 kr",
+      "desc": "Komplett omlaggning beroende pa yta, taktyp och materialval."
+    }
+  ],
+  "areas": [
+    "Stockholm",
+    "Solna",
+    "Sundbyberg",
+    "Nacka",
+    "Taby",
+    "Huddinge"
+  ],
+  "reviews": [
+    {
+      "name": "Henrik",
+      "role": "Villaagare, Taby",
+      "text": "Bra planering och tydlig kommunikation. Vi kande oss trygga genom hela projektet.",
+      "rating": 5
+    },
+    {
+      "name": "Maria",
+      "role": "BRF, Solna",
+      "text": "Proffsigt team som levererade enligt offert och tidsplan.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hur vet jag om taket bor bytas?",
+      "a": "Vanliga signaler ar lackage, skadat ytskikt och aterkommande fuktproblem. Vi kan gora en tydlig statusbedomning pa plats."
+    },
+    {
+      "q": "Kan ni jobba etappvis?",
+      "a": "Ja, vi kan dela upp projektet i etapper om det ar mer praktiskt for fastigheten."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Takunderhall",
+      "slug": "taklaggning",
+      "desc": "Forebyggande kontroller och service som forlanger takets livslangd."
+    }
+  ]
+}

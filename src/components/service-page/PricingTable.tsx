@@ -2,7 +2,7 @@
 'use client'
 
 import { useState } from 'react'
-import { CheckCircle2, HelpCircle, Info } from 'lucide-react'
+import { Info } from 'lucide-react'
 import type { PriceExample } from '@/lib/service-location-pages/types'
 
 interface PricingTableProps {
